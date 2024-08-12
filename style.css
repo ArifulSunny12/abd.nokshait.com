@@ -1,0 +1,321 @@
+
+body{
+	width: 100%;
+}
+.row::after{
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.carousel-caption{
+bottom: 5px;
+}
+
+.carousel-indicators{
+	margin-bottom: 2px;
+}
+
+
+.shadow1{
+	box-shadow: 0px 1px 10px black;
+	background-color: white;
+}
+
+
+
+
+.ltsp7{
+	font-size: 40px;
+	letter-spacing: 7px;
+}
+
+.ltsp5{
+	letter-spacing: 5px;
+}
+
+.ltfmly{
+	font-family:Courier New;
+}
+
+.fntsz{
+font-size: 16px;
+}
+
+.fntsz14{
+font-size: 14px;
+}
+
+
+.mud-50{
+	padding-top: 70px;
+	margin-bottom: 50px;
+}
+
+.donorimg{
+	width: 40px;
+	height: 40px;
+}
+
+
+.row{
+	
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.linkdecoretion{
+text-decoration: none;
+color: white;
+
+}
+
+
+.linkdecoretion:hover{
+text-decoration: none;
+color: red;
+
+}
+
+.linkdecoretion2:hover{
+	text-decoration: none;
+}
+
+.developerlink{
+text-decoration: none;
+color: #737BA1;
+font-weight: bold;
+}
+
+.developerlink:hover{
+text-decoration: none;
+font-weight: bold;
+color: #4E5577;
+}
+
+.notice{
+	color: red;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+
+
+ /*for mobile view start*/
+@media only screen and (max-width: 600px){
+
+.ltsp{
+
+		letter-spacing: 0px;
+		margin-left: 0px;
+		margin-right: 0px;
+		color: red ;
+		float: left;
+
+	}
+.logo-image{
+	width: 45px;
+	height: 30px;
+	border-radius: 5px;
+	float: left;
+	margin-top: 10px;
+	}
+
+.logotitle{
+
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	}
+
+.mpadding{
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-top:3px;
+	padding-bottom: 3px;
+}
+
+.carouselText{
+		font-size: 12px;
+		margin-bottom: 0px;
+	}
+
+	.carouselText1{
+		font-size: 8px;
+		margin-bottom: 0px;
+	}
+	
+	.captionPossition{
+		
+	}
+
+
+	.advertise{
+	font-weight: ;
+    }
+.bloodfilter1{
+	float: left;
+	width: 35%;
+
+}
+.bloodfilter2{
+	float: left;
+	width: 65%;
+	margin-top: 2px;
+	margin-bottom: 2px;
+
+}
+
+
+.donortable{
+	overflow-x: scroll;
+}
+
+
+.mt-footer{
+	margin-top: 60px;
+}
+
+.dimg{
+	width: 250px;
+}
+
+    
+  }
+/*for mobile view end*/
+
+
+  /*for Tab view start*/
+@media only screen and (min-width: 601px){
+
+	.logo-image{
+	width: 50px;
+	height: 30px;
+	border-radius: 5px;
+	float: left;
+	margin-top: 10px;
+	}
+
+	.logotitle{
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	}
+
+	.ltsp{
+	letter-spacing: 1px;
+	color: green;
+	}
+
+
+	.carouselText{
+		font-size: 30px;
+		margin-bottom: 6px;
+	}
+
+	.carouselText1{
+		font-size: 15px;
+		margin-bottom: 0px;
+	}
+
+	.bloodfilter1{
+	float: left;
+	width: 35%;
+
+}
+.bloodfilter2{
+	float: left;
+	width: 65%;
+	margin-top: 2px;
+	margin-bottom: 2px;
+
+}
+
+.advertise{
+	font-weight: bold;
+    }
+
+
+.tpl-2{
+	padding-left: 15px;
+}
+
+
+.donortable{
+	overflow-x: scroll;
+}
+
+.tpx-0{
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+
+
+.mt-footer{
+	margin-top: 150px;
+}
+
+
+.dimg{
+	width: 150px;
+}
+
+
+
+  }
+/*for Tab view end*/
+
+
+
+
+/*for Desktop view start*/
+@media only screen and (min-width: 769px){
+	.logo-image{
+	width: 50px;
+	height: 30px;
+	border-radius: 5px;
+	}
+
+
+
+	.ltsp{
+	letter-spacing: 3px;
+	color: blue;
+	}
+
+	.carouselText{
+		font-size: 40px;
+	}
+
+	.carouselText1{
+		font-size: 20px;
+		margin-bottom: 0px;
+	}
+
+	.tpl-2{
+	padding-left: 15px;
+}
+
+.advertise{
+	font-weight: bold;
+    }
+
+.mt-footer{
+	margin-top: 230px;
+}
+
+.advertise{
+	font-size: 25px;
+}
+
+.dimg{
+	width: 200px;
+}
+
+
+
+}
+/*for Desktop view end*/
